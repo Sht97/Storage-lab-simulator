@@ -54,7 +54,7 @@
       </div>
 
       <div>
-        <b-modal v-model="showModal" id="modal-xl" cancel-disabled="false" size="xl" title="Calculated results">
+        <b-modal v-model="showModal" id="modal-xl"  size="xl" title="Calculated results">
           <table class="table table-bordered ">
             <thead>
             <tr>
@@ -186,7 +186,7 @@ export default {
   },
  methods:{
    calcule(){
-  fetch('https://storage-sim-back.herokuapp.com/api/disk/compare/',{
+  fetch(process.env.VUE_APP_URL+'/api/disk/compare/',{
     method:'POST',
     body:JSON.stringify([this.disk1,this.disk2,this.disk3]),
     headers:{
