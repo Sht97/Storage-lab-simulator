@@ -22,7 +22,7 @@
         <div class="csl-right-inline" style="margin: 0 0.4em 0 1.5em">
           «How Hard Disk Drives Work», <i>Animagraffs</i>, 07-abr-2017.
           [Online]. Disponible en: <a class="link" href="https://animagraffs.com/hard-disk-drive/">https://animagraffs.com/hard-disk-drive/</a>.
-          [Accedido: 10-ene-2021]
+          [Accedido: 20-ene-2021]
         </div>
       </div>
     </div>

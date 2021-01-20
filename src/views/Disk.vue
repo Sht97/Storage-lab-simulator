@@ -55,7 +55,7 @@
 
           <vue-mathjax
             class="equ"
-            :formula="'$T_{rotation} =  \\frac{Time(ms)}{1Rot} =   \\frac{1 min}{15000 rot}  *  \\frac{60 s}{1 min} * \\frac{1000 s}{1 s} =  \\frac{60000 ms}{15000 rot} = \\frac{4 ms}{2} = 2 ms$'"
+            :formula="'$T_{rotation} =  \\frac{Time(ms)}{1Rot} =   \\frac{1 min}{15000 rot}  *  \\frac{60 s}{1 min} * \\frac{1000 ms}{1 s} =  \\frac{60000 ms}{15000 rot} = \\frac{4 ms}{2} = 2 ms$'"
           ></vue-mathjax>
           <p class="my-2">Random</p>
           <vue-mathjax
@@ -64,7 +64,7 @@
           ></vue-mathjax>
           <vue-mathjax
             class="equ"
-            :formula="'$T_{I/O} = T_{seek} + T_{rotation} + T_{transfer} = 4ms + 2ms + 0,31ms = 6,031ms$'"
+            :formula="'$T_{I/O} = T_{seek} + T_{rotation} + T_{transfer} = 4ms + 2ms + 0,031ms = 6,031ms$'"
           ></vue-mathjax>
           <vue-mathjax
             class="equ"
@@ -81,7 +81,7 @@
           ></vue-mathjax>
           <vue-mathjax
             class="equ"
-            :formula="'$R_{I/O} = { Size_{Transfer} \\over T_{I/O} } = { 102400KB \\over 806ms } = 127 \\frac{MB}{s}$'"
+            :formula="'$R_{I/O} = { Size_{Transfer} \\over T_{I/O} } = { 100MB \\over 0,806s } = 124 \\frac{MB}{s}$'"
           ></vue-mathjax>
         </div>
       </div>
