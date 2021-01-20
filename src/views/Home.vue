@@ -17,7 +17,7 @@
           <tbody>
 <!--          Campos requeridos rpm, average-seek, max_transfer-->
           <tr>
-            <td>Nombre</td>
+            <td>Name</td>
             <td><input type="text" class="form-control" v-model="disk1.name" value="Disk 1"/></td>
             <td><input type="text" class="form-control" v-model="disk2.name" value="Disk 2"/></td>
             <td><input type="text" class="form-control" v-model="disk3.name" value="Disk 3"/></td>
@@ -195,7 +195,6 @@ export default {
   }
   }).then(res => res.json()).then(data =>{
     this.showModal=true
-    console.log(data.result[0])
     this.disk1.result=data.result[0]
     this.disk2.result=data.result[1]
     this.disk3.result=data.result[2]

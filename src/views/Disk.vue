@@ -42,7 +42,7 @@
             </tbody>
           </table>
         </div>
-        <div class="col col-lg-5">
+        <div class="col col-lg-2">
             <vue-mathjax class="equ"
               :formula="'$I/O \\ \\ Time(T_{I/O}) = T_{seek} + T_{rotation} + T_{transfer}$'"
             ></vue-mathjax>
