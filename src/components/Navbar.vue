@@ -2,9 +2,9 @@
   <div id="nav">
     <nav class="navbar navbar-light" style="background-color: #348f41">
       <div class="navbar-left">
-        <router-link to="/"> Disk comparasion |</router-link>
+        <router-link to="/"> Disk comparison |</router-link>
         <router-link to="/Disk"> How it works? |</router-link>
-        <router-link to="/about"> Info About From Seagate |</router-link>
+        <router-link to="/about"> Info About HDD by Animagraffs and Seagate |</router-link>
       </div>
       <a class="navbar-brand" href="#" id="title">StorageLab Simulator</a>
     </nav>
