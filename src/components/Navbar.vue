@@ -4,7 +4,7 @@
       <div class="navbar-left">
         <router-link to="/"> Disk comparasion |</router-link>
         <router-link to="/Disk"> How it works? |</router-link>
-        <router-link to="/about"> About |</router-link>
+        <router-link to="/about"> Info About From Seagate |</router-link>
       </div>
       <a class="navbar-brand" href="#" id="title">StorageLab Simulator</a>
     </nav>
